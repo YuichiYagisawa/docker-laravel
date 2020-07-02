@@ -9,8 +9,12 @@
 ## What to do after cloning
 1. `docker-compose exec app bash`,`composer create-project --prefer-dist laravel/laravel app`
 
-2. Change .env of db
-  `DB_CONNECTION=mysql  DB_HOST=mysql  DB_PORT=3306  DB_DATABASE=sample  DB_USERNAME=user  DB_PASSWORD=password`
+2. create .env
+`DB_NAME=homestead
+DB_USER=homestead
+DB_PASS=secret
+DB_PORT=13306
+TZ=Asia/Tokyo`
 
 ## port
 * http://localhost:8000 (Laravel) 
