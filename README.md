@@ -16,6 +16,9 @@ DB_PASS=secret
 DB_PORT=13306
 TZ=Asia/Tokyo`
 
+3. Change mysql authentication(plugin) method
+`"caching_sha2_password" -> "mysql_native_password"`
+
 ## port
 * http://localhost:8000 (Laravel) 
 * http://localhost:3000 (phpmyadmin)
