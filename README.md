@@ -7,7 +7,7 @@
 * phpmyadmin/phpmyadmin
 
 ## What to do after cloning
-1. `docker-compose exec app bash`,`composer create-project --prefer-dist laravel/laravel app`
+1. `docker-compose exec app bash`,`cd app`,`composer create-project --prefer-dist laravel/laravel app`,`npm install`
 
 2. create .env
 `DB_NAME=homestead
